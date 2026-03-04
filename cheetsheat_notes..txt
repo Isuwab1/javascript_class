@@ -15,3 +15,9 @@ A. GIT Commands
 11. git remote -v - checking remote url
 12. git init - 
 13. 
+
+
+REMINDER
+1. return
+2. break
+3. continue
