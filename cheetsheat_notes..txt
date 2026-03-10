@@ -4,16 +4,16 @@ A. GIT Commands
 2. git checkout -b branch_name - creating a new branch and switching to the branch
 3. git switch branch_name - switches to a particular branch
 
-4. git log - 
-5. git status - 
+4. git log - This list the activities logged (history, commit, who commit and the date 
+5. git status - This list the files that are ready for commit
 
 6. git add . OR git add file_name.txt
 7. git commit -m "commit message" - 
-8. git push - 
-9. git pull - 
-10. git clone remote_url - 
+8. git push - push - upload your commit from your local machine to the github
+9. git pull - doenloading latest changes from a remote repository to your local computer
+10. git clone remote_url - (this downloads an existing directory from your github to your local computer.
 11. git remote -v - checking remote url
-12. git init - 
+12. git init - initializing git to start tracking changes
 13. 
 
 
