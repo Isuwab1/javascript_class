@@ -5,9 +5,21 @@ let price = 3000;
 const myName ="Isuwa B.";
 let isStud = true;
 let isLoggedIn = false;
-let haveAccess =false;
+let haveAccess = false;
+let thisIsANullValue = null;
+let thisIsAnUndefinedValue;
 
 console.log(typeof age);
 console.log (typeof price);
 console.log(typeof myName);
 console.log(typeof isStud);
+console.log(typeof isLoggedIn);
+console.log(typeof haveAccess);
+console.log(typeof thisIsANullValue);
+console.log(typeof thisIsAnUndefinedValue);
+
+// NOTES
+// 1. variable naming can be in these forms:
+// a. camelCasing = myName, isStud, isLoggedIn, isCurrentlyWorking
+// b. snake_casing = my_name, is_stud, is_logged_in, is_currently_working
+// c. PascalCasing = MyName, IsStud, IsLoggedIn, IsCurrentlyWorking
