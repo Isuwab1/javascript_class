@@ -1,0 +1,23 @@
+A. GIT Commands
+
+1. git branch - listing out the branches
+2. git checkout -b branch_name - creating a new branch and switching to the branch
+3. git switch branch_name - switches to a particular branch
+
+4. git log - 
+5. git status - 
+
+6. git add . OR git add file_name.txt
+7. git commit -m "commit message" - 
+8. git push - 
+9. git pull - 
+10. git clone remote_url - 
+11. git remote -v - checking remote url
+12. git init - 
+13. 
+
+
+REMINDER
+1. return
+2. break
+3. continue
