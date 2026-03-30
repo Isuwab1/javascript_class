@@ -10,7 +10,7 @@ console.log(fruits);
 // console.log(fruits[0]); // "apple"
 // console.log(fruits[-1]); // 
 
-// iii, Arrays have various methods that can be used to manipulate the values in the array. Some of the common methods include:
+// iii, Arrays have various methods/functions that can be used to manipulate the values in the array. Some of the common methods include:
 
 // - push(): adds a new value to the end of the array
 fruits.push("grape");
