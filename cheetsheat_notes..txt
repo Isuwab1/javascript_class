@@ -10,7 +10,7 @@ A. GIT Commands
 6. git add . OR git add file_name.txt
 7. git commit -m "commit message" - 
 8. git push - push - upload your commit from your local machine to the github
-9. git pull - doenloading latest changes from a remote repository to your local computer
+9. git pull - downloading latest changes from a remote repository to your local computer
 10. git clone remote_url - (this downloads an existing directory from your github to your local computer.
 11. git remote -v - checking remote url
 12. git init - initializing git to start tracking changes
@@ -19,6 +19,15 @@ A. GIT Commands
 
 REMINDER
 1. return
-2. break
+2. break - switch
 3. continue
-4. PR
+4. ternary
+5. import/export
+6. arrow function
+7. named and default function
+
+
+DRY - don't repeat yourself
+    function    
+    import/export
+    OOP
