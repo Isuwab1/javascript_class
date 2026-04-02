@@ -7,3 +7,4 @@ const heightM = 1.70; // height with assigned value
 const bmi = weightKg / (heightM * heightM); // calculate bmi
 
 console.log(`With a weight of ${weightKg}kg and height of ${heightM}m, the BMI is ${bmi}`);
+console.log("Alice");
