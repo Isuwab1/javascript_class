@@ -1,0 +1,11 @@
+Pull Request (PR) - 
+
+1. Authentication - login /sign up, verification/otp, forgot password...
+2. User feature - profile, setting
+
+1. array - a variable that has multiple - let num = [1,2,3,4,5] -> num[0]
+2. object - person = {name: 'Bawa", age: 5} -> JSON (js object notation)
+3. for loop
+4. switch
+5. ternary
+6. function
