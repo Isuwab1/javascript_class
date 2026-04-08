@@ -42,6 +42,8 @@ let car = {
 
 // adding new properties to an object
 person.gender = "male";
-console.log("After adding gender", person);
+// console.log("After adding gender", person);
 
-console.log(car.owner.name);
+// console.log(car.owner.name);
+
+console.log(car);
