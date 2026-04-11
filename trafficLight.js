@@ -1,32 +1,31 @@
 let trafficSequence = [
-    "Red","Green", "Yellow", "Red", "Green"
+    "Red", "Green", "Yellow", "Red", "Green"
 ]
 let i = 0;
 let countYellow = 0;
 while (i < trafficSequence.length) {
-let light = trafficSequence [i]
-{
-    switch (light) 
+    let light = trafficSequence[i]
     {
-        case "Red":
-        console.log ("STOP! 🛑");
-        break;
-        
-        case "Green":
-            console.log ("GO!🟢");
-            break;
+        switch (light) {
+            case "Red":
+                console.log("STOP! 🛑");
+                break;
+
+            case "Green":
+                console.log("GO!🟢");
+                break;
 
             case "Yellow":
                 console.log("SLOW DOWN!🟡");
                 countYellow++;
                 break;
 
-                default:
-                    console.log(`Traffic Error`)
-                    break;
+            default:
+                console.log(`Traffic Error`)
+                break;
 
+        }
+        i++
     }
-    i++
 }
-}
-console.log (`Yellow appeared ${countYellow} time(s)`)
+console.log(`Yellow appeared ${countYellow} time(s)`)
