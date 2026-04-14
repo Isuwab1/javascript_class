@@ -1,0 +1,66 @@
+// 1. Arrays - 
+// i. is a variable that has multiple values. It is a data structure that can hold multiple values of different data types. It is denoted by square brackets [] and the values are separated by commas.
+let fruits = ["apple", "banana", "orange"];
+let mixedArray = [1, "hello", true, null, undefined];
+
+console.log(fruits);
+
+// ii. we can access the values in an array using their index, which starts from 0. For example, fruits[0] will give us "apple", fruits[1] will give us "banana", and fruits[2] will give us "orange".
+
+// console.log(fruits[0]); // "apple"
+// console.log(fruits[-1]); // 
+
+// iii, Arrays have various methods that can be used to manipulate the values in the array. Some of the common methods include:
+
+// - push(): adds a new value to the end of the array
+fruits.push("grape");
+console.log(fruits); // ["apple", "banana", "orange", "grape"]
+
+// - pop(): removes the last value from the array
+fruits.pop();
+console.log(fruits); // ["apple", "banana", "orange"]
+
+// - shift(): removes the first value from the array
+fruits.shift();
+console.log(fruits); // ["banana", "orange"]
+
+// - unshift(): adds a new value to the beginning of the array
+fruits.unshift("apple");
+console.log(fruits); // ["apple", "banana", "orange"]
+
+// - indexOf(): returns the index of the first occurrence of a value in the array
+console.log(fruits.indexOf("banana")); // 1
+
+// - length: returns the number of values in the array
+console.log(fruits.length); // 3
+
+// map, filter, find, 
+// - map(): creates a new array by applying a function to each value in the array
+let numbers = [1, 2, 3, 4, 5];
+let doubledNumbers = numbers.map(function(number) {
+  return number * 2;
+});
+
+console.log(numbers); // [1, 2, 3, 4, 5]
+console.log(doubledNumbers); // [2, 4, 6, 8, 10]
+
+// 2. if/else
+let num = -10;
+
+if (num > 0) {
+  console.log("The number is positive.");
+} else {
+    console.log("The number is not positive.");
+}
+
+let day = "Friday";
+
+if (day === "Monday") {
+    console.log("Today is Monday.");    
+} else if (day === "Tuesday") {
+    console.log("Today is Tuesday.");
+} else {
+    console.log("Today is not Monday or Tuesday.");
+}
+
+// 3. switch statement
