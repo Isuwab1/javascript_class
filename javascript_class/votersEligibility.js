@@ -25,5 +25,8 @@ for (let i= 0; i < voters.length; i++) {
         disqualifiedVoters.push (voter.name);
 }
 console.log(`Eligible Voter: ${eligibleVoter.join (", ")}`)
-console.log (`Not qualified: ${disqualifiedVoters.length === 0?0: disqualifiedVoters.join(" ")}`)
+setTimeout (()=>{
+    console.log (`Not qualified: ${disqualifiedVoters.length === 0?0: disqualifiedVoters.join(" ")}`)
+}, 4000
+),
 console.log (`Total Eligible Voters: ${eligibleVoter.length}`)
